@@ -32,7 +32,7 @@ plt.xlabel('Number of clusters')
 plt.ylabel('WCSS')
 plt.show()
 
-# Applying K-Means with the optimal number of clusters (let's assume k=5)
+# Applying K-Means with the optimal number of clusters 
 kmeans = KMeans(n_clusters=5, init='k-means++', random_state=42)
 y_kmeans = kmeans.fit_predict(X_scaled)
 
